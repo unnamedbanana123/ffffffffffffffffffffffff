@@ -1,0 +1,406 @@
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+
+-- Wait until the character and HumanoidRootPart are loaded
+character:WaitForChild("HumanoidRootPart")
+
+-- Define the teleport location and orientation
+local position = Vector3.new(5858.26416, 3021.80786, 1876.47656)
+local orientation = CFrame.new(position, position + Vector3.new(0.0914492607, 0, -0.995809734))
+
+-- Teleport the character
+character.HumanoidRootPart.CFrame = orientation
+
+wait(0.2)
+
+local VirtualInputManager = game:GetService("VirtualInputManager")
+
+-- Function to hold down the 'E' key for 1 second
+local function holdEKeyForOneSecond()
+    -- Simulate key press
+    VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.E, false, game)
+    wait(0.1) -- Hold for 1 second
+    -- Simulate key release
+    VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.E, false, game)
+end
+
+-- Trigger the function
+holdEKeyForOneSecond()
+
+wait(0.2)
+
+
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+
+-- Wait until the character and HumanoidRootPart are loaded
+character:WaitForChild("HumanoidRootPart")
+
+-- Define the teleport location and orientation
+local position = Vector3.new(5870.53516, 3021.80811, 1874.19922)
+local orientation = CFrame.new(position, position + Vector3.new(0.987132788, 0, -0.159902662))
+
+-- Teleport the character
+character.HumanoidRootPart.CFrame = orientation
+
+
+
+wait(0.2)
+
+
+
+local VirtualInputManager = game:GetService("VirtualInputManager")
+
+-- Function to hold down the 'E' key for 1 second
+local function holdEKeyForOneSecond()
+    -- Simulate key press
+    VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.E, false, game)
+    wait(0.1) -- Hold for 1 second
+    -- Simulate key release
+    VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.E, false, game)
+end
+
+-- Trigger the function
+holdEKeyForOneSecond()
+
+wait(0.2)
+
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+
+-- Wait until the character and HumanoidRootPart are loaded
+character:WaitForChild("HumanoidRootPart")
+
+-- Define the teleport location and orientation
+local position = Vector3.new(5724.51465, 3021.77783, 1790.68042)
+local orientation = CFrame.new(position, position + Vector3.new(0.996909559, 0, -0.0785578713))
+
+-- Teleport the character
+character.HumanoidRootPart.CFrame = orientation
+
+
+wait(0.2)
+
+local VirtualInputManager = game:GetService("VirtualInputManager")
+
+-- Function to hold down the '4' key for 1 second
+local function hold4KeyForOneSecond()
+    -- Simulate key press
+    VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.Four, false, game)
+    wait(1) -- Hold for 1 second
+    -- Simulate key release
+    VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.Four, false, game)
+end
+
+-- Trigger the function
+hold4KeyForOneSecond()
+
+
+wait(0.2)
+
+local VirtualInputManager = game:GetService("VirtualInputManager")
+
+-- Function to hold down the 'E' key for 1 second
+local function holdEKeyForOneSecond()
+    -- Simulate key press
+    VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.E, false, game)
+    wait(0.1) -- Hold for 1 second
+    -- Simulate key release
+    VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.E, false, game)
+end
+
+-- Trigger the function
+holdEKeyForOneSecond()
+
+
+wait(0.2)
+
+
+local VirtualInputManager = game:GetService("VirtualInputManager")
+
+-- Function to hold down the '3' key for 1 second
+local function hold3KeyForOneSecond()
+    -- Simulate key press
+    VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.Three, false, game)
+    wait(1) -- Hold for 1 second
+    -- Simulate key release
+    VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.Three, false, game)
+end
+
+-- Trigger the function
+hold3KeyForOneSecond()
+
+
+
+wait(0.2)
+
+
+
+local VirtualInputManager = game:GetService("VirtualInputManager")
+
+-- Function to hold down the 'E' key for 1 second
+local function holdEKeyForOneSecond()
+    -- Simulate key press
+    VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.E, false, game)
+    wait(0.1) -- Hold for 1 second
+    -- Simulate key release
+    VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.E, false, game)
+end
+
+-- Trigger the function
+holdEKeyForOneSecond()
+
+
+wait(0.2)
+
+
+
+local player = game.Players.LocalPlayer
+local backpack = player.Backpack
+
+-- Function to check for the tool
+local function checkForTool()
+    for _, item in pairs(backpack:GetChildren()) do
+        if item.Name == "Blank (Active)" then
+            print("test123") -- Print if tool is found
+            return
+        end
+    end
+end
+
+-- Check for the tool
+checkForTool()
+
+
+wait(0.2)
+
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+
+-- Wait until the character and HumanoidRootPart are loaded
+character:WaitForChild("HumanoidRootPart")
+
+-- Define the teleport location and orientation
+local position = Vector3.new(5294.00488, 3021.93213, 2183.77197)
+local orientation = CFrame.new(position, position + Vector3.new(0.0440823138, 0, 0.999027908))
+
+-- Teleport the character
+character.HumanoidRootPart.CFrame = orientation
+
+
+wait(0.2)        --------------first atm
+
+
+local VirtualInputManager = game:GetService("VirtualInputManager")
+
+-- Function to hold down the 'E' key for 1 second
+local function holdEKeyForOneSecond()
+    -- Simulate key press
+    VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.E, false, game)
+    wait(0.1) -- Hold for 1 second
+    -- Simulate key release
+    VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.E, false, game)
+end
+
+-- Trigger the function
+holdEKeyForOneSecond()
+
+
+
+wait(0.2)       
+
+
+
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+
+-- Wait until the character and HumanoidRootPart are loaded
+character:WaitForChild("HumanoidRootPart")
+
+-- Define the teleport location and orientation
+local position = Vector3.new(6428.58936, 3021.83936, 1441.35876)
+local orientation = CFrame.new(position, position + Vector3.new(-0.0175457001, 1.62198521e-08, -0.999846041))
+
+-- Teleport the character
+character.HumanoidRootPart.CFrame = orientation
+
+
+wait(0.2)                --------------------2 atm
+
+
+
+
+local VirtualInputManager = game:GetService("VirtualInputManager")
+
+-- Function to hold down the 'E' key for 1 second
+local function holdEKeyForOneSecond()
+    -- Simulate key press
+    VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.E, false, game)
+    wait(0.1) -- Hold for 1 second
+    -- Simulate key release
+    VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.E, false, game)
+end
+
+-- Trigger the function
+holdEKeyForOneSecond()
+
+
+
+
+wait(0.2)
+
+
+
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+
+-- Wait until the character and HumanoidRootPart are loaded
+character:WaitForChild("HumanoidRootPart")
+
+-- Define the teleport location and orientation
+local position = Vector3.new(5041.3125, 3021.93213, 1406.30469)
+local orientation = CFrame.new(position, position + Vector3.new(-0.00877164863, 6.1776122e-09, -0.999961555))
+
+-- Teleport the character
+character.HumanoidRootPart.CFrame = orientation
+
+
+
+wait(0.2) -----------------------3 atm
+
+
+local VirtualInputManager = game:GetService("VirtualInputManager")
+
+-- Function to hold down the 'E' key for 1 second
+local function holdEKeyForOneSecond()
+    -- Simulate key press
+    VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.E, false, game)
+    wait(0.1) -- Hold for 1 second
+    -- Simulate key release
+    VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.E, false, game)
+end
+
+-- Trigger the function
+holdEKeyForOneSecond()
+
+
+wait(0.2)
+
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+
+-- Wait until the character and HumanoidRootPart are loaded
+character:WaitForChild("HumanoidRootPart")
+
+-- Define the teleport location and orientation
+local position = Vector3.new(5622.21533, 3021.93188, 1390.72302)
+local orientation = CFrame.new(position, position + Vector3.new(0.996253371, 0, -0.0864825249))
+
+-- Teleport the character
+character.HumanoidRootPart.CFrame = orientation
+
+
+wait(0.2)    ------------------4 atm
+
+
+local VirtualInputManager = game:GetService("VirtualInputManager")
+
+-- Function to hold down the 'E' key for 1 second
+local function holdEKeyForOneSecond()
+    -- Simulate key press
+    VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.E, false, game)
+    wait(0.1) -- Hold for 1 second
+    -- Simulate key release
+    VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.E, false, game)
+end
+
+-- Trigger the function
+holdEKeyForOneSecond()
+
+
+
+wait(0.2)
+
+
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+
+-- Wait until the character and HumanoidRootPart are loaded
+character:WaitForChild("HumanoidRootPart")
+
+-- Define the teleport location and orientation
+local position = Vector3.new(6541.1333, 3021.93213, 2100.89893)
+local orientation = CFrame.new(position, position + Vector3.new(0.999953389, 0, -0.00965484884))
+
+-- Teleport the character
+character.HumanoidRootPart.CFrame = orientation
+
+
+
+wait(0.2)  -----------------5 atm
+
+
+
+local VirtualInputManager = game:GetService("VirtualInputManager")
+
+-- Function to hold down the 'E' key for 1 second
+local function holdEKeyForOneSecond()
+    -- Simulate key press
+    VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.E, false, game)
+    wait(0.1) -- Hold for 1 second
+    -- Simulate key release
+    VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.E, false, game)
+end
+
+-- Trigger the function
+holdEKeyForOneSecond()
+
+
+
+wait(0.2)
+
+
+
+
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+
+-- Wait until the character and HumanoidRootPart are loaded
+character:WaitForChild("HumanoidRootPart")
+
+-- Define the teleport location and orientation
+local position = Vector3.new(6362.30566, 3021.93213, 1682.88379)
+local orientation = CFrame.new(position, position + Vector3.new(0.109284684, 0, 0.994010508))
+
+-- Teleport the character
+character.HumanoidRootPart.CFrame = orientation
+
+
+
+wait(0.2)  -------------6 atm
+
+
+local VirtualInputManager = game:GetService("VirtualInputManager")
+
+-- Function to hold down the 'E' key for 1 second
+local function holdEKeyForOneSecond()
+    -- Simulate key press
+    VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.E, false, game)
+    wait(0.1) -- Hold for 1 second
+    -- Simulate key release
+    VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.E, false, game)
+end
+
+-- Trigger the function
+holdEKeyForOneSecond()
+
+
+
+
+
+
+
+
+
+
+
